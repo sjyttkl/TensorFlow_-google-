@@ -40,6 +40,12 @@ with tf.Session() as sess:
             print("After %s iteration(s): x%s is %f." % (i + 1, i + 1, x_value))
 
 # 3. 使用指数衰减的学习率，在迭代初期得到较高的下降速度，可以在较小的训练轮数下取得不错的收敛程度。
+# decayed_learning_rate = learning_rate*decay_rate^(global_step/decayed_steps)
+# 公式中，learning_rate： 当前的学习速率
+# start_rate：最初的学习速率
+# decay_rate：每轮学习的衰减率，0<decay_rate<1
+# global_step：当前的学习步数，等同于我们将 batch 放入学习器的次数 ,它从学习速率第一次训练开始变化，global_steps每次自动加1
+# decay_steps：每轮学习的步数，decay_steps = sample_size/batch  即样本总数除以每个batch的大小
 TRAINING_STEPS = 100
 global_step = tf.Variable(0)
 LEARNING_RATE = tf.train.exponential_decay(0.1, global_step, 1, 0.96, staircase=True)
