@@ -47,3 +47,11 @@ print(tf.greater(v1,v2).eval())
 print(tf.where(tf.greater(v1,v2),v1,v2).eval())
 sess.close()
 
+#指数衰减
+# decayed_learning_rate = learning_rate*decay_rate^(global_step/decayed_steps)
+global_step = tf.Variable(0)
+#通过exponential——decay函数生成学习率
+learning_rate = tf.train.exponential_decay(0.1,global_step,100,0.96,staircase=True)
+
+#使用指数函数的学习率，在minimize函数中传入global_step将自动更新
+# learning_step = tf.train.GradientDescentOptimizer(learning_rate).minimize(loss,global_step=global_step)
