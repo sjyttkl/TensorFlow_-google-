@@ -29,7 +29,7 @@ with tf.Session(graph=g2) as sess:
     with tf.variable_scope("",reuse=True):
         print(sess.run(tf.get_variable("v")))
 
-
+print("----张量的概念------")
 # 2. 张量的概念
 import tensorflow as tf
 a = tf.constant([1.0, 2.0], name="a")
