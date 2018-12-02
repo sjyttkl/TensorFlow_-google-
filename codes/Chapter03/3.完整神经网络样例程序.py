@@ -20,7 +20,7 @@ y_ = tf.placeholder(tf.float32,shape=[None,1],name="y-input")
 # 2. 定义前向传播过程，损失函数及反向传播算法。
 a = tf.matmul(x,w1)
 y = tf.matmul(a,w2)
-cross_entry = -tf.reduce_mean(y_*tf.log(tf.clip_by_value(y,1e-10,1.0)))
+cross_entry = -tf.reduce_mean(y_*tf.log(tf.clip_by_value(y,1e-10,1.0))) #clip_by_value是为了限制最大，最小范围
 train_step = tf.train.AdamOptimizer(0.001).minimize(cross_entry)
 
 # 3. 生成模拟数据集。
