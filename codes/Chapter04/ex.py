@@ -65,3 +65,28 @@ with tf.Session() as sess:
     print(sess.run(tf.contrib.layers.l1_regularizer(.5)(weights)))
     #输出为：(1^2+(-2)^2+(-3)^2+(4)^2) = 7.5 #Tensorflow 会把L2正则化除以2使得求导结果更加简洁
     print(sess.run(tf.contrib.layers.l2_regularizer(.5)(weights)))
+
+sess=tf.InteractiveSession()
+#初始化2个Variable
+v1=tf.Variable(tf.constant(1))
+v2=tf.Variable(tf.constant(1))
+#设置保存到collection的name为collection
+name='collection'
+#把v1和v2添加到默认graph的collection中
+tf.add_to_collection(name,v1)
+tf.add_to_collection(name,v2)
+#获得名为name的集合
+c1 = tf.get_collection(name)
+tf.global_variables_initializer().run()
+print("the first collection: %s"%sess.run(c1))
+#修改v1和v2的值,必须使用eval()或run()进行执行
+tf.assign(v1,tf.constant(3)).eval()
+tf.assign(v2,tf.constant(4)).eval()
+#再次查看collection中的值
+c2 = tf.get_collection(name)
+print("the second collection: %s"%sess.run(c2))
+print("the sum of collection: %s"%sess.run(tf.add_n(c2)))
+#resut:
+#the first collection: [1, 1]
+#the second collection: [3, 4]
+#the sum of collection: 7
