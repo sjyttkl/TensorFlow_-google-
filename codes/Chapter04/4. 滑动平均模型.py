@@ -1,13 +1,13 @@
 # -*- coding: UTF-8 -*-
 """
 ===============================================================
-author：songdongdong
+author：sjyttkl
 email：695492835@qq.com
 date：2018
 introduction:
 ===============================================================
 """
-__author__ = "songdongdong"
+__author__ = "sjyttkl"
 
 #滑动平均模型：
 #可以在测试集上的效果变得更健壮。

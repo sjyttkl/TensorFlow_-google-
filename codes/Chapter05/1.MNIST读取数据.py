@@ -1,13 +1,13 @@
 # -*- coding: UTF-8 -*-
 """
 ===============================================================
-author：songdongdong
+author：sjyttkl
 email：695492835@qq.com
 date：2018
 introduction:
 ===============================================================
 """
-__author__ = "songdongdong"
+__author__ = "sjyttkl"
 
 #1. 读取数据集，第一次TensorFlow会自动下载数据集到下面的路径中。
 from tensorflow.examples.tutorials.mnist import input_data

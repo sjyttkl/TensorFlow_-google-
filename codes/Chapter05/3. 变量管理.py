@@ -1,13 +1,13 @@
 # -*- coding: UTF-8 -*-
 """
 ===============================================================
-author：songdongdong
+author：sjyttkl
 email：695492835@qq.com
 date：2018
 introduction:
 ===============================================================
 """
-__author__ = "songdongdong"
+__author__ = "sjyttkl"
 import tensorflow as tf
 # 1. 在上下文管理器“foo”中创建变量“v”。
 with tf.variable_scope("foo"):

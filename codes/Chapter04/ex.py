@@ -1,8 +1,8 @@
 # -*- coding: UTF-8 -*-
 """
 ===============================================================
-author：songdongdong
-email：songdongdong@jd.com
+author：sjyttkl
+email：695492835@qq.com
 date：2018
 introduction:
 ===============================================================

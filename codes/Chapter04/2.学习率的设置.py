@@ -1,13 +1,13 @@
 # -*- coding: UTF-8 -*-
 """
 ===============================================================
-author：songdongdong
-email：songdongdong@jd.com
+author：sjyttkl
+email：695492835@qq.com
 date：2018.09.24
 introduction:假设我们要最小化函数  y=x^2, 选择初始点   x_0=5
 ===============================================================
 """
-__author__ = "songdongdong"
+__author__ = "sjyttkl"
 
 import tensorflow as tf
 #1. 学习率为1的时候，x在5和-5之间震荡。
