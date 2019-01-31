@@ -2,7 +2,7 @@
 """
 ===============================================================
 author：sjyttkl
-email：sjyttkl@jd.com
+email：695492835@qq.com
 date：2018
 introduction: TFRecord 文件中的数据可以通过tf.train.Example Protocol Buffer 的格式存储
 ===============================================================
@@ -13,16 +13,20 @@ from tensorflow.examples.tutorials.mnist import input_data
 import numpy as np
 # 1. 将输入转化成TFRecord格式并保存。
 # 定义函数转化变量类型。
-#生成整型的人属性
-def _int64_feature(value):
-    return tf.train.Feature(int64_list = tf.train.Int64List(value=[value]))
-#生成字符串型的属性
-def _bytes_feature(value):
-    return tf.train.Feature(bytes_list=tf.train.BytesList(value=[value]))
-# 读取mnist数据。
+# #BytesList :字符串
+# #FloatList:实数列表
+# #Int4List：整数列表
+# #生成整型的属性
+# def _int64_feature(value):
+#     return tf.train.Feature(int64_list = tf.train.Int64List(value=[value]))
+# #生成字符串型的属性
+# def _bytes_feature(value):
+#     return tf.train.Feature(bytes_list=tf.train.BytesList(value=[value]))
+# # 读取mnist数据。
 # mnist=input_data.read_data_sets(train_dir="../../datasets/MNIST_data",dtype=tf.uint8,one_hot=True)
 # images= mnist.train.images
 # labels = mnist.train.labels
+# #计算图像的分辨率
 # pixels = images.shape[1]
 # num_examples = mnist.train.num_examples
 # #输出TFRecord文件地址
