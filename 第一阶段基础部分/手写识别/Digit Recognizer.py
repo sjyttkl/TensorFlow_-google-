@@ -1,8 +1,8 @@
 # -*- coding: UTF-8 -*-
 """
 ===============================================================
-author：songdongdong
-email：songdongdong@jd.com
+author：sjyttkl
+email：695492835@qq.com
 date：2018
 introduction:  详细说明请看 说明.txt  文档
 

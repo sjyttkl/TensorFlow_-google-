@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="676a09f5-36f4-4439-abf9-cbb1042da342" name="Default" comment="" />
+    <list default="true" id="676a09f5-36f4-4439-abf9-cbb1042da342" name="Default" comment="学习率的设置">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/Chapter07/eax.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter04/.ipynb_checkpoints/3. 正则化-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter04/.ipynb_checkpoints/3. 正则化-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter04/2. 学习率的设置.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter04/2. 学习率的设置.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter04/3. 正则化.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter04/3. 正则化.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter04/4. 滑动平均模型.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter04/4. 滑动平均模型.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter05/.ipynb_checkpoints/3. 变量管理-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter05/.ipynb_checkpoints/3. 变量管理-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter05/1. MNIST读取数据.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter05/1. MNIST读取数据.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter05/2. TensorFlow训练神经网络/.ipynb_checkpoints/1. 全模型-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter05/2. TensorFlow训练神经网络/.ipynb_checkpoints/1. 全模型-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter05/2. TensorFlow训练神经网络/1. 全模型.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter05/2. TensorFlow训练神经网络/1. 全模型.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter05/2. TensorFlow训练神经网络/2. 不使用正则化.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter05/2. TensorFlow训练神经网络/2. 不使用正则化.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter05/3. 变量管理.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter05/3. 变量管理.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter05/4.1. ckpt文件保存方法.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter05/4.1. ckpt文件保存方法.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter05/4.2.1 滑动平均类的保存.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter05/4.2.1 滑动平均类的保存.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter05/4.2.2 variables_to_restore函数的使用样例.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter05/4.2.2 variables_to_restore函数的使用样例.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter05/4.3. pb文件保存方法.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter05/4.3. pb文件保存方法.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter05/5. MNIST最佳实践/mnist_eval.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter05/5. MNIST最佳实践/mnist_eval.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter05/5. MNIST最佳实践/mnist_inference.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter05/5. MNIST最佳实践/mnist_inference.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter05/5. MNIST最佳实践/mnist_train.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter05/5. MNIST最佳实践/mnist_train.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter06/1. 卷积层、池化层样例.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter06/1. 卷积层、池化层样例.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter06/2. 迁移学习.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter06/2. 迁移学习.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter06/LeNet-5/LeNet5_infernece.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter06/LeNet-5/LeNet5_infernece.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter06/LeNet-5/LeNet5_train.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter06/LeNet-5/LeNet5_train.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter07/.ipynb_checkpoints/1. TFRecord样例程序-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter07/.ipynb_checkpoints/1. TFRecord样例程序-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter07/1. TFRecord样例程序.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter07/1. TFRecord样例程序.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter07/2.1. TensorFlow图像处理函数.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/1.0.0/Chapter07/2.1. TensorFlow图像处理函数.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/Chapter06/2.迁移学习.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/Chapter06/2.迁移学习.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/Chapter06/LeNet-5/LeNet5_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/Chapter06/LeNet-5/LeNet5_train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/Chapter07/2.1. TensorFlow图像处理函数.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/Chapter07/2.1TensorFlow图像处理函数.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一阶段基础部分/Second.py" beforeDir="false" afterPath="$PROJECT_DIR$/第一阶段基础部分/Second.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一阶段基础部分/firstExample.py" beforeDir="false" afterPath="$PROJECT_DIR$/第一阶段基础部分/firstExample.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一阶段基础部分/手写识别/Digit Recognizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/第一阶段基础部分/手写识别/Digit Recognizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一阶段基础部分/手写识别/Digit_Recognizer_convolutional.py" beforeDir="false" afterPath="$PROJECT_DIR$/第一阶段基础部分/手写识别/Digit_Recognizer_convolutional.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,26 +45,52 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/TensorFlow$2_.coverage" NAME="2.三层简单神经网络 Coverage Results" MODIFIED="1536485815183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/codes/Chapter03" />
-    <SUITE FILE_PATH="coverage/TensorFlow$1.coverage" NAME="1 Coverage Results" MODIFIED="1534502431779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第一阶段基础部分" />
-    <SUITE FILE_PATH="coverage/TensorFlow$ex.coverage" NAME="ex Coverage Results" MODIFIED="1536493204266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/codes/Chapter04" />
+    <SUITE FILE_PATH="coverage/TensorFlow$3__.coverage" NAME="3. 变量管理 Coverage Results" MODIFIED="1543510706550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/codes/Chapter05" />
+    <SUITE FILE_PATH="coverage/TensorFlow$mnist_train.coverage" NAME="mnist_train Coverage Results" MODIFIED="1543729346740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/codes/Chapter05/5. MNIST最佳实践" />
     <SUITE FILE_PATH="coverage/TensorFlow$Digit_Recognizer.coverage" NAME="Digit Recognizer Coverage Results" MODIFIED="1534752815752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第一阶段基础部分/手写识别" />
     <SUITE FILE_PATH="coverage/TensorFlow$Digit_Recognizer_convolutional.coverage" NAME="Digit_Recognizer_convolutional Coverage Results" MODIFIED="1534767232447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第一阶段基础部分/手写识别" />
-    <SUITE FILE_PATH="coverage/TensorFlow$1__.coverage" NAME="1. 图，张量及会话 Coverage Results" MODIFIED="1535021591863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/codes/Chapter03" />
+    <SUITE FILE_PATH="coverage/TensorFlow$1__.coverage" NAME="1. 图，张量及会话 Coverage Results" MODIFIED="1543378950515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/codes/Chapter03" />
+    <SUITE FILE_PATH="coverage/TensorFlow$6_1_.coverage" NAME="6-1 卷积神经网络 Coverage Results" MODIFIED="1544030733280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/codes/Chapter06" />
+    <SUITE FILE_PATH="coverage/TensorFlow$1_.coverage" NAME="1.卷积层、池化层样 Coverage Results" MODIFIED="1543803759858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/codes/Chapter06" />
+    <SUITE FILE_PATH="coverage/TensorFlow$1__1_.coverage" NAME="1 (1) Coverage Results" MODIFIED="1543681613229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/codes/Chapter05/2.TensorFlow训练神经网络" />
+    <SUITE FILE_PATH="coverage/TensorFlow$1_TFRecord.coverage" NAME="1.TFRecord样例程序 Coverage Results" MODIFIED="1548921647659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/codes/Chapter07" />
+    <SUITE FILE_PATH="coverage/TensorFlow$pyplot.coverage" NAME="pyplot Coverage Results" MODIFIED="1543399693836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/Program Files/Anaconda3/Lib/site-packages/matplotlib" />
+    <SUITE FILE_PATH="coverage/TensorFlow$5_4_.coverage" NAME="5.4 持久化原理及其数据格式 Coverage Results" MODIFIED="1543723271568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/codes/Chapter05" />
+    <SUITE FILE_PATH="coverage/TensorFlow$2_.coverage" NAME="2.学习率的设置 Coverage Results" MODIFIED="1543393110335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/codes/Chapter04" />
+    <SUITE FILE_PATH="coverage/TensorFlow$1.coverage" NAME="1 Coverage Results" MODIFIED="1543681345184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/codes/Chapter04" />
+    <SUITE FILE_PATH="coverage/TensorFlow$mnist_eval.coverage" NAME="mnist_eval Coverage Results" MODIFIED="1543729442184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/codes/Chapter05/5. MNIST最佳实践" />
+    <SUITE FILE_PATH="coverage/TensorFlow$ex.coverage" NAME="ex Coverage Results" MODIFIED="1543422549256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/codes/Chapter04" />
+    <SUITE FILE_PATH="coverage/TensorFlow$1_MNIST.coverage" NAME="1.MNIST读取数据 Coverage Results" MODIFIED="1543508819320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/codes/Chapter05" />
+    <SUITE FILE_PATH="coverage/TensorFlow$4__.coverage" NAME="4. 滑动平均模型 Coverage Results" MODIFIED="1543674930488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/codes/Chapter04" />
+    <SUITE FILE_PATH="coverage/TensorFlow$LeNet5_train.coverage" NAME="LeNet5_train Coverage Results" MODIFIED="1544357701598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/codes/Chapter06/LeNet-5" />
     <SUITE FILE_PATH="coverage/TensorFlow$firstExample.coverage" NAME="firstExample Coverage Results" MODIFIED="1534736018358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第一阶段基础部分" />
-    <SUITE FILE_PATH="coverage/TensorFlow$3_.coverage" NAME="3.完整神经网络样例程序 Coverage Results" MODIFIED="1534853957598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/codes/Chapter03" />
-    <SUITE FILE_PATH="coverage/TensorFlow$1_.coverage" NAME="1.自定义损失函数 Coverage Results" MODIFIED="1536494780315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/codes/Chapter04" />
+    <SUITE FILE_PATH="coverage/TensorFlow$3_.coverage" NAME="3.正则化 Coverage Results" MODIFIED="1543425895872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/codes/Chapter04" />
+    <SUITE FILE_PATH="coverage/TensorFlow$5_2_ckpt.coverage" NAME="5.2.ckpt文件保存方法 Coverage Results" MODIFIED="1543684902927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/codes/Chapter05" />
+    <SUITE FILE_PATH="coverage/TensorFlow$5_2_1_.coverage" NAME="5.2.1 滑动平均类的保存 Coverage Results" MODIFIED="1543717679366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/codes/Chapter05" />
+    <SUITE FILE_PATH="coverage/TensorFlow$5_2_2_variables_to_restore.coverage" NAME="5.2.2 variables_to_restore函数的使用样例 Coverage Results" MODIFIED="1543719040753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/codes/Chapter05" />
+    <SUITE FILE_PATH="coverage/TensorFlow$5_3_pb.coverage" NAME="5.3.pb文件保存方法 Coverage Results" MODIFIED="1543720293405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/codes/Chapter05" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="1.自定义损失函数.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/codes/Chapter04/1.自定义损失函数.py">
+      <file leaf-file-name="1.TFRecord样例程序.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/codes/Chapter07/1.TFRecord样例程序.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="34" column="15" lean-forward="true" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
-              <folding>
-                <element signature="e#231#254#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="160">
+              <caret line="65" column="1" lean-forward="true" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -48,7 +109,25 @@
       <find>n_batch</find>
       <find>dense_to_one_hot</find>
       <find>stddev</find>
+      <find>relu</find>
+      <find>elu</find>
+      <find>average_y</find>
+      <find>y</find>
+      <find>songdongdong@jd.com</find>
+      <find>songdongdong</find>
     </findStrings>
+    <replaceStrings>
+      <replace>695492835@qq.com</replace>
+      <replace>sjyttkl</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="sjyttkl &lt;695492835@qq.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -61,11 +140,45 @@
         <option value="$PROJECT_DIR$/第一阶段基础部分/手写识别/Python——数组重组（flatten、flat、ravel、reshape、resize）.py" />
         <option value="$PROJECT_DIR$/第一阶段基础部分/Second.py" />
         <option value="$PROJECT_DIR$/codes/Chapter03/完整神经网络样例程序.py" />
-        <option value="$PROJECT_DIR$/codes/Chapter03/3.完整神经网络样例程序.py" />
-        <option value="$PROJECT_DIR$/codes/Chapter03/1. 图，张量及会话.py" />
         <option value="$PROJECT_DIR$/codes/Chapter03/2.三层简单神经网络.py" />
-        <option value="$PROJECT_DIR$/codes/Chapter04/ex.py" />
+        <option value="$PROJECT_DIR$/codes/Chapter04/学习率的数字.py" />
+        <option value="$PROJECT_DIR$/codes/Chapter04/2.学习率的数字.py" />
+        <option value="$PROJECT_DIR$/codes/Chapter04/正则化.py" />
+        <option value="$PROJECT_DIR$/codes/Chapter03/1. 图，张量及会话.py" />
+        <option value="$PROJECT_DIR$/codes/Chapter03/3.完整神经网络样例程序.py" />
         <option value="$PROJECT_DIR$/codes/Chapter04/1.自定义损失函数.py" />
+        <option value="$PROJECT_DIR$/codes/Chapter04/2.学习率的设置.py" />
+        <option value="$PROJECT_DIR$/codes/Chapter04/ex.py" />
+        <option value="$PROJECT_DIR$/codes/Chapter04/3.正则化.py" />
+        <option value="$PROJECT_DIR$/codes/Chapter05/datasets/MNIST_data/3. 变量管理.ipynb.py" />
+        <option value="$PROJECT_DIR$/codes/Chapter05/datasets/3. 变量管理.py" />
+        <option value="$PROJECT_DIR$/codes/Chapter05/1.MNIST读取数据.py" />
+        <option value="$PROJECT_DIR$/codes/Chapter05/3. 变量管理.py" />
+        <option value="$PROJECT_DIR$/codes/Chapter04/4. 滑动平均模型.py" />
+        <option value="$PROJECT_DIR$/codes/Chapter04/1.py" />
+        <option value="$PROJECT_DIR$/codes/Chapter05/2.TensorFlow训练神经网络/2.不使用正则化.py" />
+        <option value="$PROJECT_DIR$/codes/Chapter05/2.TensorFlow训练神经网络/5.2.ckpt文件保存方法.py" />
+        <option value="$PROJECT_DIR$/codes/Chapter05/5.2.ckpt文件保存方法.py" />
+        <option value="$PROJECT_DIR$/codes/Chapter05/2.TensorFlow训练神经网络/1.全模型.py" />
+        <option value="$PROJECT_DIR$/codes/Chapter05/5.2.1 滑动平均类的保存.py" />
+        <option value="$PROJECT_DIR$/codes/Chapter05/5.2.2 variables_to_restore函数的使用样例.py" />
+        <option value="$PROJECT_DIR$/codes/Chapter05/5.3.pb文件保存方法.py" />
+        <option value="$PROJECT_DIR$/codes/Chapter05/5.4 持久化原理及其数据格式.py" />
+        <option value="$PROJECT_DIR$/codes/Chapter05/5. MNIST最佳实践/mnist_inference.py" />
+        <option value="$PROJECT_DIR$/codes/Chapter05/5. MNIST最佳实践/mnist_train.py" />
+        <option value="$PROJECT_DIR$/codes/Chapter05/5. MNIST最佳实践/mnist_eval.py" />
+        <option value="$PROJECT_DIR$/codes/Chapter06/1.卷积层、池化层样.py" />
+        <option value="$PROJECT_DIR$/codes/Chapter06/6-1 卷积神经网络.py" />
+        <option value="$PROJECT_DIR$/codes/Chapter06/6-2 卷积神经网络.py" />
+        <option value="$PROJECT_DIR$/codes/Chapter06/LeNet-5/LeNet5_infernece.py" />
+        <option value="$PROJECT_DIR$/codes/Chapter06/Inception-3.py" />
+        <option value="$PROJECT_DIR$/codes/Chapter06/LeNet-5/LeNet5_train.py" />
+        <option value="$PROJECT_DIR$/codes/Chapter07/2.1. TensorFlow图像处理函数.py" />
+        <option value="$PROJECT_DIR$/codes/Chapter06/2.迁移学习.py" />
+        <option value="$PROJECT_DIR$/codes/Chapter07/2.1TensorFlow图像处理函数.py" />
+        <option value="$PROJECT_DIR$/codes/Chapter07/ex.py" />
+        <option value="$PROJECT_DIR$/codes/Chapter07/eax.py" />
+        <option value="$PROJECT_DIR$/codes/Chapter07/1.TFRecord样例程序.py" />
       </list>
     </option>
   </component>
@@ -76,8 +189,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="960" />
-    <option name="height" value="1032" />
+    <option name="x" value="-154" />
+    <option name="y" value="123" />
+    <option name="width" value="1938" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -95,13 +210,42 @@
             <path>
               <item name="TensorFlow学习" type="b2602c69:ProjectViewProjectNode" />
               <item name="TensorFlow学习" type="462c0819:PsiDirectoryNode" />
+              <item name="books" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TensorFlow学习" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TensorFlow学习" type="462c0819:PsiDirectoryNode" />
+              <item name="books" type="462c0819:PsiDirectoryNode" />
+              <item name="TensorFlowGoogle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TensorFlow学习" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TensorFlow学习" type="462c0819:PsiDirectoryNode" />
               <item name="codes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TensorFlow学习" type="b2602c69:ProjectViewProjectNode" />
               <item name="TensorFlow学习" type="462c0819:PsiDirectoryNode" />
               <item name="codes" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter04" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter07" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TensorFlow学习" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TensorFlow学习" type="462c0819:PsiDirectoryNode" />
+              <item name="datasets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TensorFlow学习" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TensorFlow学习" type="462c0819:PsiDirectoryNode" />
+              <item name="datasets" type="462c0819:PsiDirectoryNode" />
+              <item name="path" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TensorFlow学习" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TensorFlow学习" type="462c0819:PsiDirectoryNode" />
+              <item name="datasets" type="462c0819:PsiDirectoryNode" />
+              <item name="path" type="462c0819:PsiDirectoryNode" />
+              <item name="to" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -111,6 +255,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
@@ -119,6 +268,16 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\学习资料\TensorFlow学习\codes\Chapter05" />
+      <recent name="E:\学习资料\TensorFlow学习\codes\Chapter05\2.TensorFlow训练神经网络" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\学习资料\TensorFlow学习\codes\Chapter06" />
+      <recent name="E:\学习资料\TensorFlow学习\codes\Chapter05\datasets\MNIST_data" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -132,8 +291,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1.自定义损失函数">
-    <configuration name="1. 图，张量及会话" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.1.TFRecord样例程序">
+    <configuration name="1.卷积层、池化层样" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TensorFlow学习" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,18 +300,56 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/codes/Chapter03" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/codes/Chapter06" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/Chapter03/1. 图，张量及会话.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/Chapter06/1.卷积层、池化层样.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="1.自定义损失函数" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="1.MNIST读取数据" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TensorFlow学习" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/codes/Chapter05" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/Chapter05/1.MNIST读取数据.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="1.TFRecord样例程序" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TensorFlow学习" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/codes/Chapter07" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/Chapter07/1.TFRecord样例程序.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="2.学习率的设置" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TensorFlow学习" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -165,13 +362,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/Chapter04/1.自定义损失函数.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/Chapter04/2.学习率的设置.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="2.三层简单神经网络" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="6-1 卷积神经网络" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TensorFlow学习" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -179,18 +376,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/codes/Chapter03" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/codes/Chapter06" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/Chapter03/2.三层简单神经网络.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/Chapter06/6-1 卷积神经网络.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="3.完整神经网络样例程序" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="LeNet5_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TensorFlow学习" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -198,18 +395,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/codes/Chapter03" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/codes/Chapter06/LeNet-5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/Chapter03/3.完整神经网络样例程序.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/Chapter06/LeNet-5/LeNet5_train.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="ex" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="mnist_eval" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TensorFlow学习" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -217,31 +414,31 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/codes/Chapter04" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/codes/Chapter05/5. MNIST最佳实践" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/Chapter04/ex.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codes/Chapter05/5. MNIST最佳实践/mnist_eval.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.1. 图，张量及会话" />
-      <item itemvalue="Python.2.三层简单神经网络" />
-      <item itemvalue="Python.3.完整神经网络样例程序" />
-      <item itemvalue="Python.ex" />
-      <item itemvalue="Python.1.自定义损失函数" />
+      <item itemvalue="Python.mnist_eval" />
+      <item itemvalue="Python.1.卷积层、池化层样" />
+      <item itemvalue="Python.6-1 卷积神经网络" />
+      <item itemvalue="Python.LeNet5_train" />
+      <item itemvalue="Python.1.TFRecord样例程序" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.1.自定义损失函数" />
-        <item itemvalue="Python.ex" />
-        <item itemvalue="Python.2.三层简单神经网络" />
-        <item itemvalue="Python.1. 图，张量及会话" />
-        <item itemvalue="Python.3.完整神经网络样例程序" />
+        <item itemvalue="Python.1.TFRecord样例程序" />
+        <item itemvalue="Python.LeNet5_train" />
+        <item itemvalue="Python.6-1 卷积神经网络" />
+        <item itemvalue="Python.1.卷积层、池化层样" />
+        <item itemvalue="Python.mnist_eval" />
       </list>
     </recent_temporary>
   </component>
@@ -256,67 +453,251 @@
       <option name="presentableId" value="Default" />
       <updated>1534501281101</updated>
     </task>
+    <task id="LOCAL-00001" summary="学习率的设置">
+      <created>1537804839952</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1537804839952</updated>
+    </task>
+    <task id="LOCAL-00002" summary="学习率的设置">
+      <created>1537805996974</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1537805996974</updated>
+    </task>
+    <task id="LOCAL-00003" summary="正则化学习">
+      <created>1537806683414</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1537806683414</updated>
+    </task>
+    <task id="LOCAL-00004" summary="这个，就是个草稿，demo">
+      <created>1537806707660</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1537806707660</updated>
+    </task>
+    <task id="LOCAL-00005" summary="没啥改动的">
+      <created>1543391239018</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1543391239018</updated>
+    </task>
+    <task id="LOCAL-00006" summary="学习率的设置">
+      <created>1543715255280</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1543715255280</updated>
+    </task>
+    <task id="LOCAL-00007" summary="学习率的设置">
+      <created>1543717061898</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1543717061898</updated>
+    </task>
+    <task id="LOCAL-00008" summary="第五章内容">
+      <created>1543718253678</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1543718253678</updated>
+    </task>
+    <task id="LOCAL-00009" summary="滑动平均模型">
+      <created>1543718510756</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1543718510756</updated>
+    </task>
+    <task id="LOCAL-00010" summary="一些测试案例，辅助学习">
+      <created>1543718534501</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1543718534501</updated>
+    </task>
+    <task id="LOCAL-00011" summary="完整额神经网络程序，后续还需要更新">
+      <created>1543719040675</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1543719040675</updated>
+    </task>
+    <task id="LOCAL-00012" summary="卷积神经网络，这是在数练成金上学习的">
+      <created>1544357902984</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1544357902985</updated>
+    </task>
+    <task id="LOCAL-00013" summary="卷积，学习">
+      <created>1544358139218</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1544358139218</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Tensorflows-slim学习，后期自己去了解把">
+      <created>1544363868110</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1544363868111</updated>
+    </task>
+    <task id="LOCAL-00015" summary="迁移学习">
+      <created>1544368164472</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1544368164472</updated>
+    </task>
+    <task id="LOCAL-00016" summary="TFRcord 学习">
+      <created>1544370618909</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1544370618909</updated>
+    </task>
+    <task id="LOCAL-00017" summary="TFRecord学习">
+      <created>1548922318506</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1548922318506</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4566929" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18342246" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49893048" weight="0.32906976" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.42139038" side_tool="true" weight="0.25348836" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.57860965" weight="0.0" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946523" weight="0.39186046" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49946523" weight="0.32906976" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32906976" />
+      <window_info anchor="right" id="Remote Host" order="4" weight="0.32994652" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49811321" visible="true" weight="0.1368984" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32994652" />
       <window_info anchor="bottom" id="Archimedes-IDEA" order="7" side_tool="true" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.3540107" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.09605123" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="6" sideWeight="0.49675325" weight="0.25721925" />
+      <window_info anchor="right" id="Structure" order="7" sideWeight="0.5032467" side_tool="true" weight="0.25721925" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33255813" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="Archimedes-IDEA" order="10" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Archimedes-IDEA" order="7" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33071747" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33191034" />
+      <window_info anchor="right" id="Remote Host" order="4" weight="0.32994652" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49811321" visible="true" weight="0.11497326" />
+      <window_info active="true" anchor="right" id="Structure" order="7" sideWeight="0.5032467" side_tool="true" visible="true" weight="0.25721925" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49893048" weight="0.32906976" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.57860965" visible="true" weight="0.25348836" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Python Console" order="13" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.09605123" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="right" id="SciView" order="5" weight="0.3540107" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32906976" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.15" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946523" weight="0.39186046" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.42139038" side_tool="true" visible="true" weight="0.25348836" />
+      <window_info anchor="right" id="SciView" order="6" sideWeight="0.49675325" weight="0.25721925" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32994652" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49946523" weight="0.32906976" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="正则化学习" />
+    <MESSAGE value="这个，就是个草稿，demo" />
+    <MESSAGE value="没啥改动的" />
+    <MESSAGE value="学习率的设置" />
+    <MESSAGE value="第五章内容" />
+    <MESSAGE value="滑动平均模型" />
+    <MESSAGE value="一些测试案例，辅助学习" />
+    <MESSAGE value="完整额神经网络程序，后续还需要更新" />
+    <MESSAGE value="卷积神经网络，这是在数练成金上学习的" />
+    <MESSAGE value="卷积，学习" />
+    <MESSAGE value="Tensorflows-slim学习，后期自己去了解把" />
+    <MESSAGE value="迁移学习" />
+    <MESSAGE value="TFRcord 学习" />
+    <MESSAGE value="TFRecord学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="TFRecord学习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -341,429 +722,374 @@
           <line>28</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/Chapter04/3.正则化.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/Chapter04/3.正则化.py</url>
+          <line>81</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/Chapter07/1.TFRecord样例程序.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/codes/Chapter07/1.TFRecord样例程序.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="13" />
+      <option name="time" value="24" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/codes/Chapter04/ex.py">
+    <entry file="file://$PROJECT_DIR$/codes/Chapter07/1.TFRecord样例程序.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding>
-            <element signature="e#232#255#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1632">
+          <caret line="53" column="48" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codes/Chapter04/1.自定义损失函数.py">
+    <entry file="file://$PROJECT_DIR$/codes/Chapter06/2.迁移学习.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#231#254#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="832">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codes/Chapter04/ex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding>
-            <element signature="e#232#255#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codes/Chapter04/1.自定义损失函数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#231#254#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codes/Chapter04/ex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding>
-            <element signature="e#232#255#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codes/Chapter04/1.自定义损失函数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#231#254#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codes/Chapter04/ex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding>
-            <element signature="e#232#255#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codes/Chapter04/1.自定义损失函数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#231#254#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codes/Chapter04/ex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding>
-            <element signature="e#232#255#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codes/Chapter04/1.自定义损失函数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#231#254#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codes/Chapter04/ex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#232#255#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codes/Chapter04/1.自定义损失函数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#231#254#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codes/Chapter04/ex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#232#255#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codes/Chapter04/1.自定义损失函数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="9" selection-start-line="9" selection-end-line="11" selection-end-column="36" />
-          <folding>
-            <element signature="e#231#254#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codes/Chapter04/ex.py">
+    <entry file="file://$PROJECT_DIR$/codes/Chapter07/2.1TensorFlow图像处理函数.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
-          <caret line="14" column="74" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
-          <folding>
-            <element signature="e#232#255#0" expanded="true" />
-          </folding>
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codes/Chapter04/1.自定义损失函数.py">
+    <entry file="file://$PROJECT_DIR$/codes/Chapter06/6-1 卷积神经网络.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="9" selection-start-line="9" selection-end-line="11" selection-end-column="36" />
-          <folding>
-            <element signature="e#231#254#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="2304">
+          <caret line="73" column="35" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codes/Chapter04/ex.py">
+    <entry file="file://$PROJECT_DIR$/codes/Chapter07/1.TFRecord样例程序.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codes/Chapter07/2.1TensorFlow图像处理函数.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
-          <caret line="14" column="74" lean-forward="true" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
-          <folding>
-            <element signature="e#232#255#0" expanded="true" />
-          </folding>
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codes/Chapter04/1.自定义损失函数.py">
+    <entry file="file://$PROJECT_DIR$/codes/Chapter05/model/combine_model.pb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="9" selection-start-line="9" selection-end-line="11" selection-end-column="36" />
-          <folding>
-            <element signature="e#231#254#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-320" />
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Anaconda3/Lib/site-packages/tensorflow/python/framework/ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="3789" column="39" selection-start-line="3789" selection-start-column="17" selection-end-line="3789" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codes/Chapter04/ex.py">
+    <entry file="file://D:/Program Files/Anaconda3/Lib/site-packages/tensorflow/python/framework/importer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="14" column="71" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
-          <folding>
-            <element signature="e#232#255#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="181">
+          <caret line="153" column="4" selection-start-line="153" selection-start-column="4" selection-end-line="153" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codes/Chapter03/1. 图，张量及会话.py">
+    <entry file="file://$PROJECT_DIR$/codes/Chapter05/5.3.pb文件保存方法.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1152">
-          <caret line="36" column="14" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+        <state relative-caret-position="1030">
+          <caret line="45" column="27" lean-forward="true" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codes/Chapter03/1. 图，张量及会话.py">
+    <entry file="file://$PROJECT_DIR$/codes/Chapter05/model/model.ckpt.meta.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        <state relative-caret-position="-186">
+          <caret line="970" column="31" lean-forward="true" selection-start-line="970" selection-start-column="31" selection-end-line="970" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/第一阶段基础部分/手写识别/Digit Recognizer.py">
+    <entry file="file://$PROJECT_DIR$/codes/Chapter05/5.4 持久化原理及其数据格式.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3392">
-          <caret line="108" column="51" lean-forward="true" selection-start-line="108" selection-start-column="51" selection-end-line="108" selection-end-column="51" />
+        <state relative-caret-position="736">
+          <caret line="23" column="66" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/第一阶段基础部分/手写识别/Digit_Recognizer_convolutional.py">
+    <entry file="file://D:/Program Files/Anaconda3/Lib/site-packages/tensorflow/python/ops/init_ops.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第一阶段基础部分/Second.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第一阶段基础部分/firstExample.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3168">
-          <caret line="99" column="47" selection-start-line="99" selection-start-column="29" selection-end-line="99" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第一阶段基础部分/手写识别/Digit Recognizer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Anaconda3/Lib/site-packages/numpy/matrixlib/defmatrix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33760">
-          <caret line="1055" column="57" lean-forward="true" selection-start-line="1055" selection-start-column="19" selection-end-line="1055" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第一阶段基础部分/手写识别/Digit Recognizer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Anaconda3/Lib/site-packages/numpy/matrixlib/defmatrix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="1055" column="57" selection-start-line="1055" selection-start-column="19" selection-end-line="1055" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Anaconda3/Lib/site-packages/tensorflow/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1187" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第一阶段基础部分/手写识别/说明">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Anaconda3/Lib/site-packages/tensorflow/python/ops/math_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
-          <caret line="175" column="18" lean-forward="true" selection-start-line="175" selection-start-column="18" selection-end-line="175" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Anaconda3/Lib/site-packages/tensorflow/python/framework/errors_impl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="465" selection-start-line="465" selection-end-line="465" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第一阶段基础部分/Second.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第一阶段基础部分/firstExample.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="83" column="20" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第一阶段基础部分/手写识别/Digit_Recognizer_convolutional.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第一阶段基础部分/手写识别/Digit Recognizer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="108" column="51" selection-start-line="108" selection-start-column="51" selection-end-line="108" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Anaconda3/Lib/site-packages/tensorflow/python/ops/variable_scope.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2977">
-          <caret line="1407" column="4" selection-start-line="1407" selection-start-column="4" selection-end-line="1407" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Anaconda3/Lib/site-packages/tensorflow/python/ops/variables.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="159" column="35" selection-start-line="159" selection-start-column="35" selection-end-line="159" selection-end-column="35" />
+        <state relative-caret-position="-884">
+          <caret line="218" column="6" selection-start-line="218" selection-start-column="6" selection-end-line="218" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://D:/Program Files/Anaconda3/Lib/site-packages/tensorflow/python/ops/random_ops.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="56" column="19" lean-forward="true" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
+        <state relative-caret-position="60">
+          <caret line="137" column="4" selection-start-line="137" selection-start-column="4" selection-end-line="137" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Program Files/Anaconda3/Lib/site-packages/tensorflow/python/ops/clip_ops.py">
+    <entry file="file://$PROJECT_DIR$/codes/Chapter05/5.2.2 variables_to_restore函数的使用样例.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-156">
-          <caret line="34" column="52" lean-forward="true" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="52" />
+        <state relative-caret-position="451">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Program Files/Anaconda3/Lib/site-packages/tensorflow/python/training/adam.py">
+    <entry file="file://$PROJECT_DIR$/codes/Chapter05/3. 变量管理.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-567">
-          <caret line="30" column="50" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="50" />
+        <state relative-caret-position="1536">
+          <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Program Files/Anaconda3/Lib/site-packages/tensorflow/python/ops/numerics.py">
+    <entry file="file://$PROJECT_DIR$/codes/Chapter05/1.MNIST读取数据.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+        <state relative-caret-position="-380">
+          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-952285868/numpy/random/mtrand.py">
+    <entry file="file://$PROJECT_DIR$/codes/Chapter05/5.2.1 滑动平均类的保存.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110400">
-          <caret line="3454" column="6" selection-start-line="3454" selection-start-column="6" selection-end-line="3454" selection-end-column="6" />
+        <state relative-caret-position="254">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codes/Chapter03/3.完整神经网络样例程序.py">
+    <entry file="file://$PROJECT_DIR$/codes/Chapter05/5.2.ckpt文件保存方法.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-          <folding>
-            <element signature="e#230#253#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1216">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/books/TensorFlowGoogle/book_codes/0.12.1/Chapter04/1. 自定义损失函数.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codes/Chapter03/2.三层简单神经网络.py">
+    <entry file="file://$PROJECT_DIR$/codes/Chapter05/5. MNIST最佳实践/mnist_inference.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="832">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codes/Chapter03/1. 图，张量及会话.py">
+    <entry file="file://$PROJECT_DIR$/codes/Chapter05/5. MNIST最佳实践/mnist_train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="46" selection-start-line="46" selection-end-line="46" selection-end-column="23" />
+        <state relative-caret-position="68">
+          <caret line="52" column="39" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-952285868/numpy/core/multiarray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="4428" column="8" selection-start-line="4428" selection-start-column="8" selection-end-line="4428" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codes/Chapter05/2.TensorFlow训练神经网络/2.不使用正则化.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codes/Chapter05/5. MNIST最佳实践/mnist_eval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-925">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codes/Chapter06/1.卷积层、池化层样.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Anaconda3/Lib/site-packages/tensorflow/python/ops/math_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44448">
+          <caret line="1416" column="4" selection-start-line="1416" selection-start-column="4" selection-end-line="1416" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Anaconda3/Lib/site-packages/tensorflow/python/summary/summary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2400">
+          <caret line="109" column="22" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Anaconda3/Lib/site-packages/tensorflow/python/ops/variables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2144">
+          <caret line="120" column="6" selection-start-line="120" selection-start-column="6" selection-end-line="120" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Anaconda3/Lib/site-packages/tensorflow/python/ops/nn_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57088">
+          <caret line="1803" column="16" selection-start-line="1803" selection-start-column="16" selection-end-line="1803" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Anaconda3/Lib/site-packages/tensorflow/python/ops/gen_nn_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="346" column="4" selection-start-line="346" selection-start-column="4" selection-end-line="346" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codes/Chapter06/6-2 卷积神经网络.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="151" column="29" selection-start-line="151" selection-start-column="29" selection-end-line="151" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Anaconda3/Lib/site-packages/tensorflow/python/ops/variable_scope.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="1407" column="4" selection-start-line="1407" selection-start-column="4" selection-end-line="1407" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codes/Chapter06/LeNet-5/LeNet5_infernece.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Anaconda3/Lib/site-packages/tensorflow/contrib/framework/python/ops/arg_scope.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1284">
+          <caret line="109" column="4" selection-start-line="109" selection-start-column="4" selection-end-line="109" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Anaconda3/Lib/site-packages/tensorflow/contrib/slim/nets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1029" />
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Anaconda3/Lib/site-packages/tensorflow/contrib/slim/python/slim/model_analyzer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3045" />
       </provider>
     </entry>
     <entry file="file://D:/Program Files/Anaconda3/Lib/site-packages/tensorflow/python/ops/array_ops.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-928">
-          <caret line="2261" column="4" selection-start-line="2261" selection-start-column="4" selection-end-line="2261" selection-end-column="4" />
+        <state relative-caret-position="32">
+          <caret line="963" column="23" selection-start-line="963" selection-start-column="19" selection-end-line="963" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codes/Chapter04/ex.py">
+    <entry file="file://D:/Program Files/Anaconda3/Lib/site-packages/tensorflow/contrib/slim/python/slim/data/dataset.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="1504">
+          <caret line="49" column="50" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Anaconda3/Lib/site-packages/tensorflow/contrib/slim/python/slim/learning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23013" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codes/Chapter03/3.完整神经网络样例程序.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="22" column="98" selection-start-line="22" selection-start-column="98" selection-end-line="22" selection-end-column="98" />
           <folding>
-            <element signature="e#232#255#0" expanded="true" />
+            <element signature="e#222#245#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codes/Chapter04/1.自定义损失函数.py">
+    <entry file="file://$PROJECT_DIR$/codes/Chapter05/2.TensorFlow训练神经网络/1.全模型.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="34" column="15" lean-forward="true" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
-          <folding>
-            <element signature="e#231#254#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="151">
+          <caret line="116" column="27" selection-start-line="116" selection-start-column="27" selection-end-line="116" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codes/Chapter06/Inception-3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codes/Chapter06/LeNet-5/LeNet5_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="75" column="48" selection-start-line="75" selection-start-column="48" selection-end-line="75" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Anaconda3/Lib/site-packages/google/protobuf/internal/python_message.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="483" selection-start-line="483" selection-end-line="483" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codes/Chapter07/ex.py" />
+    <entry file="file://$PROJECT_DIR$/codes/Chapter07/2.1TensorFlow图像处理函数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codes/Chapter06/2.迁移学习.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codes/Chapter06/6-1 卷积神经网络.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2179">
+          <caret line="123" column="11" selection-start-line="123" selection-start-column="11" selection-end-line="123" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Anaconda3/Lib/site-packages/tensorflow/core/example/example_pb2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Anaconda3/Lib/site-packages/tensorflow/core/example/feature_pb2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="376" selection-start-line="376" selection-end-line="376" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codes/Chapter07/1.TFRecord样例程序.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="65" column="1" lean-forward="true" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
         </state>
       </provider>
     </entry>

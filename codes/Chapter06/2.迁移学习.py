@@ -32,3 +32,6 @@ INPUT_DATA = '../../datasets/flower_photos'
 
 VALIDATION_PERCENTAGE = 10
 TEST_PERCENTAGE = 10
+
+
+#未完，待续

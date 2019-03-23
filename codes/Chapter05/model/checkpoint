@@ -1,0 +1,2 @@
+model_checkpoint_path: "aver_model"
+all_model_checkpoint_paths: "aver_model"
