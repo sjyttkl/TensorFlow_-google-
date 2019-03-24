@@ -6,7 +6,7 @@
    email:         songdongdong@jd.com
    Author :       songdongdong
    date：          2019/3/24
-   Description :  
+   Description :  TFlearn
 ==================================================
 """
 __author__ = 'songdongdong'
@@ -24,16 +24,18 @@ def my_model(features, target):
     target = tf.one_hot(target, 3, 1, 0)
 
     # 计算预测值及损失函数。
-    logits = tf.contrib.layers.fully_connected(features, 3, tf.nn.softmax)
-    loss = tf.losses.softmax_cross_entropy(target, logits)
+    # logits = tf.contrib.layers.fully_connected(features, 3, tf.nn.softmax)
+    # loss = tf.losses.softmax_cross_entropy(target, logits)
+
+    logits ,loss = learn.models.logistic_regression(features,target)
 
     # 创建优化步骤。
     train_op = tf.contrib.layers.optimize_loss(
-        loss,
-        tf.contrib.framework.get_global_step(),
+        loss,#损失函数
+        tf.contrib.framework.get_global_step(),#获取训练步数，并在训练时更新
         optimizer='Adam',
         learning_rate=0.01)
-    return tf.arg_max(logits, 1), loss, train_op
+    return tf.arg_max(logits, 1), loss, train_op  #返回预测结果，损失值以及优化步数
 
 #2. 读取数据并将数据转化成TensorFlow要求的float32格式。
 iris = datasets.load_iris()
@@ -43,7 +45,8 @@ x_train, x_test, y_train, y_test = model_selection.train_test_split(
 x_train, x_test = map(np.float32, [x_train, x_test])
 
 #3. 封装和训练模型，输出准确率
-classifier = SKCompat(learn.Estimator(model_fn=my_model, model_dir="Models/model_1"))
+#classifier = SKCompat(learn.Estimator(model_fn=my_model, model_dir="Models/model_1"))
+classifier = learn.Estimator(model_fn=my_model,model_dir="Models/model_2")
 classifier.fit(x_train, y_train, steps=800)
 
 y_predicted = [i for i in classifier.predict(x_test)]
