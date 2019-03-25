@@ -146,7 +146,13 @@ def ptb_producer(raw_data, batch_size, num_steps, name=None):
         # epoch_size是用总的批数除以时间步长长度
         # 得到的就是运行一个epoch需要运行num_steps的个数
         epoch_size = (batch_len - 1) // num_steps
+        #tf.assert_positive如果x中有负数就抛出异常，
         assertion = tf.assert_positive(epoch_size,message="epoch_size == 0, decrease batch_size or num_steps")#messageepoch_size=(batch_len - 1) // num_steps="epoch_size == 0, decrease batch_size or num_steps"
+        """
+        y = tf.identity(x)是一个op操作表示将x的值赋予y
+        y = x只是一个内存拷贝，并不是一个op，而control_dependencies只有当里面是一个Op的时候才能起作用。
+        Assign, Identity 这两个OP 与Variable 关系极其紧密，分别实现了变量的修改与读取。因此，它们必须与Variable 在同一个设备上执行；这样的关系，常称为同位关系(Colocation)。
+        """
         with tf.control_dependencies([assertion]):
             epoch_size = tf.identity(epoch_size, name="epoch_size")
 
