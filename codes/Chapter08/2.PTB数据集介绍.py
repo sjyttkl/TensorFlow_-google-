@@ -12,7 +12,6 @@
 __author__ = 'songdongdong'
 
 import tensorflow as tf
-import reader
 import reader_ptb
 
 
@@ -24,7 +23,6 @@ print(train_data[:100])
 
 
 #2. 将训练数据组织成batch大小为4、截断长度为5的数据组。并使用队列读取前3个batch。
-
 # ptb_producer返回的为一个二维的tuple数据。
 result = reader_ptb.ptb_producer(train_data,4,5)
 with tf.Session() as sess:
