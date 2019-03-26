@@ -111,7 +111,7 @@ def ptb_iterator(raw_data, batch_size, num_steps):
 
   for i in range(epoch_size):
     x = data[:, i*num_steps:(i+1)*num_steps]
-    y = data[:, i*num_steps+1:(i+1)*num_steps+1]
+    y = data[:, i*num_steps+1:(i+1)*num_steps+1]  #因为是预测下一个词，所以只是移动一个位置而已
   yield (x, y)
 
 
@@ -165,12 +165,12 @@ def ptb_producer(raw_data, batch_size, num_steps, name=None):
         # (i + 1) * num_steps代表的是数据的长度
         # 这里即将data数据从第i * num_steps列开始，向后取(i + 1) * num_steps列，即一个num_steps的长度
         x = tf.strided_slice(data, [0, i * num_steps],
-                             [batch_size, (i + 1) * num_steps])
+                             [batch_size, (i + 1) * num_steps])  #一个二维数组，[0, i * num_steps]表示左上角点，[batch_size, (i + 1) * num_steps] 表示右下角点
         # 将取到的数据reshape一下
         x.set_shape([batch_size, num_steps])
         # y的切法和x类似，只是y要向后一列移动一个单位，因为这里是根据上一个单词预测下一个单词
         y = tf.strided_slice(data, [0, i * num_steps + 1],
-                             [batch_size, (i + 1) * num_steps + 1])
+                             [batch_size, (i + 1) * num_steps + 1]) #因为是预测下一个词，所以只是移动一个位置而已
         y.set_shape([batch_size, num_steps])
     # 返回为两个tensor,一个是输入数据，一个是输出标签（因为任务是预测下一个单词，所以标签只是输入向后平移一个单词）
     return x,y
