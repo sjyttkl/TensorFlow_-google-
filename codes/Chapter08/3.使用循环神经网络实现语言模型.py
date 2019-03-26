@@ -43,10 +43,15 @@ class PTBModel(object):
         self.targets = tf.placeholder(tf.int32, [batch_size, num_steps])
 
         # 定义使用LSTM结构及训练时使用dropout。
-        lstm_cell = tf.contrib.rnn.BasicLSTMCell(HIDDEN_SIZE)
-        if is_training:
-            lstm_cell = tf.contrib.rnn.DropoutWrapper(lstm_cell, output_keep_prob=KEEP_PROB)
-        cell = tf.contrib.rnn.MultiRNNCell([lstm_cell] * NUM_LAYERS)
+        # lstm_cell = tf.contrib.rnn.BasicLSTMCell(HIDDEN_SIZE,)
+        # #
+        # if is_training:
+        #     lstm_cell = tf.contrib.rnn.DropoutWrapper(lstm_cell, output_keep_prob=KEEP_PROB)
+        # cell = tf.contrib.rnn.MultiRNNCell([lstm_cell for _ in range(0 ,NUM_LAYERS)], ) #和原版有改动
+        #用上面的代码会报错，原因：这里每次都需要新创建的lstm_cell,不能重复使用
+        cell = tf.contrib.rnn.MultiRNNCell([self.lstm_cell(HIDDEN_SIZE, keep_prob=KEEP_PROB,is_training=is_training) for _ in range(NUM_LAYERS)],
+                                          state_is_tuple=True)
+
 
         # 初始化最初的状态。
         self.initial_state = cell.zero_state(batch_size, tf.float32)
@@ -87,6 +92,14 @@ class PTBModel(object):
         grads, _ = tf.clip_by_global_norm(tf.gradients(self.cost, trainable_variables), MAX_GRAD_NORM)
         optimizer = tf.train.GradientDescentOptimizer(LEARNING_RATE)
         self.train_op = optimizer.apply_gradients(zip(grads, trainable_variables))
+
+    def lstm_cell(self,hidden_size, keep_prob,is_training):
+
+        cell = tf.contrib.rnn.BasicLSTMCell(hidden_size, reuse=tf.get_variable_scope().reuse) #LSTMCELL
+        if is_training:
+            return tf.contrib.rnn.DropoutWrapper(cell, output_keep_prob=keep_prob)
+        return cell
+
 
 #3. 使用给定的模型model在数据data上运行train_op并返回在全部数据上的perplexity值
 def run_epoch(session, model, data, train_op, output_log, epoch_size):
