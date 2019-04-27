@@ -24,7 +24,7 @@ for i in range(num_shards):
     #将数据分为多个的时候，可以按照命名规范进行分区。前面是第几个分区，后面的是一共多少个分区
     filename = ('Records/data.tfrecords-%.5d-of-%.5d' % (i, num_shards))
     # 将Example结构写入TFRecord文件。
-    writer = tf.python_io.TFRecordWriter(filename)
+    writer = tf.python_io.TFRecordWfilenameriter()
     for j in range(instances_per_shard):
     # Example结构仅包含当前样例属于第几个文件以及是当前文件的第几个样本。
         example = tf.train.Example(features=tf.train.Features(feature={

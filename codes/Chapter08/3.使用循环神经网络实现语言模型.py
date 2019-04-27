@@ -58,7 +58,7 @@ class PTBModel(object):
         embedding = tf.get_variable("embedding", [VOCAB_SIZE, HIDDEN_SIZE])
 
         # 将原本单词ID转为单词向量。
-        inputs = tf.nn.embedding_lookup(embedding, self.input_data)
+        inputs = tf.nn.embedding_lookup(embedding, self.input_data) #batch_size , num_steps ,HIDDEN_SIZE
 
         if is_training:
             inputs = tf.nn.dropout(inputs, KEEP_PROB)
@@ -67,34 +67,38 @@ class PTBModel(object):
         outputs = []
         state = self.initial_state
         with tf.variable_scope("RNN"):
+            ##虽然rnn理论上可以处理任意长度的序列，但是在训练时为了避免梯度消散的问题，会规定一个最大的循环长度num_temps
             for time_step in range(num_steps):
+                ##在第一个时刻声明LSTM结构中使用的变量，在之后的时刻都需要服用之前的定义好的变量。
                 if time_step > 0: tf.get_variable_scope().reuse_variables()
                 cell_output, state = cell(inputs[:, time_step, :], state)
                 outputs.append(cell_output)
-        output = tf.reshape(tf.concat(outputs, 1), [-1, HIDDEN_SIZE])
+        output = tf.reshape(tf.concat(outputs, 1), [-1, HIDDEN_SIZE]) #concat(1) 是按照第二维度进行拼接，tf.reshape(,[-1,])将每一时刻的输出在第1维上拼接（上图），这样每一行就完整的表示了一个序列。reshape后的结构如下图：
+        # output的格式为：（batch_size*num_steps,hidden_size）
         weight = tf.get_variable("weight", [HIDDEN_SIZE, VOCAB_SIZE])
         bias = tf.get_variable("bias", [VOCAB_SIZE])
-        logits = tf.matmul(output, weight) + bias
-
-        # 定义交叉熵损失函数和平均损失。
+        logits = tf.matmul(output, weight) + bias #logits格式为：（batch_size*num_steps, VOCAB_SIZE）#700*10000
+        # f = tf.reshape(self.targets, [-1])
+        # 定义交叉熵损失函数和平均损失。这里是先按照行计算 logits的sigmax，然后在和 targets做 交叉熵
         loss = tf.contrib.legacy_seq2seq.sequence_loss_by_example(
             [logits],
-            [tf.reshape(self.targets, [-1])],
+            [tf.reshape(self.targets, [-1])],  # 20 *35 #tf.targets原来为：[batch_size, num_steps]，需要reshape为：展开成一维【列表】
             [tf.ones([batch_size * num_steps], dtype=tf.float32)])
-        self.cost = tf.reduce_sum(loss) / batch_size
-        self.final_state = state
+        self.cost = tf.reduce_sum(loss) / batch_size # 计算平均损失
+        self.final_state = state #最终状态
 
-        # 只在训练模型时定义反向传播操作。
+        # 只在训练模型时定义反向传播操作。下面的是 反向传播，需要进行梯度计算。
         if not is_training: return
         trainable_variables = tf.trainable_variables()
 
         # 控制梯度大小，定义优化方法和训练步骤。
-        grads, _ = tf.clip_by_global_norm(tf.gradients(self.cost, trainable_variables), MAX_GRAD_NORM)
+        grads, _ = tf.clip_by_global_norm(tf.gradients(self.cost, trainable_variables), MAX_GRAD_NORM)#计算梯度
         optimizer = tf.train.GradientDescentOptimizer(LEARNING_RATE)
-        self.train_op = optimizer.apply_gradients(zip(grads, trainable_variables))
+        self.train_op = optimizer.apply_gradients(zip(grads, trainable_variables)) #对哪些参数进行梯度计算
+        #其实这里一般使用optimizer.minimize()
 
+    #这里临时定义的一个方法，是因为BasicLSTMCell不能复用，需要每次使用的时候都需要重新创建
     def lstm_cell(self,hidden_size, keep_prob,is_training):
-
         cell = tf.contrib.rnn.BasicLSTMCell(hidden_size, reuse=tf.get_variable_scope().reuse) #LSTMCELL
         if is_training:
             return tf.contrib.rnn.DropoutWrapper(cell, output_keep_prob=keep_prob)
@@ -138,13 +142,14 @@ def main():
     test_epoch_size = (test_batch_len - 1) // EVAL_NUM_STEP
 
     initializer = tf.random_uniform_initializer(-0.05, 0.05)
-    with tf.variable_scope("language_model", reuse=None, initializer=initializer):
+    with tf.variable_scope("language_model", reuse=None, initializer=initializer):#使用with tf.variable_scope()指定统一的initializer，那么在模型里面的话就self.src_embedding = tf.get_variable("src_emb", [SRC_VOCAB_SIZE, HIDDEN_SIZE])这样就行了，不用每一个都指定initializer。
         train_model = PTBModel(True, TRAIN_BATCH_SIZE, TRAIN_NUM_STEP)
 
     with tf.variable_scope("language_model", reuse=True, initializer=initializer):
         eval_model = PTBModel(False, EVAL_BATCH_SIZE, EVAL_NUM_STEP)
 
     # 训练模型。
+    #saver = tf.train.Saver()
     with tf.Session() as session:
         tf.global_variables_initializer().run()
 
@@ -164,7 +169,7 @@ def main():
 
         test_perplexity = run_epoch(session, eval_model, test_queue, tf.no_op(), False, test_epoch_size)
         print("Test Perplexity: %.3f" % test_perplexity)
-
+        #saver.save(session, 'model/lm')
         coord.request_stop()
         coord.join(threads)
 
